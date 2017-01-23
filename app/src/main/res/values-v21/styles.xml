@@ -1,0 +1,96 @@
+<resources>
+
+    <style name="AppTheme.Base.Green" parent="AppTheme.Green">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/activity_bg</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/primary_green</item>
+    </style>
+
+    <style name="AppTheme.Base.Green.Dark" parent="AppTheme.Green">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/activity_bg_black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/primary_green</item>
+    </style>
+
+    <style name="AppTheme.Base.Purple" parent="AppTheme.Purple">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/activity_bg</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/primary_purple</item>
+    </style>
+
+    <style name="AppTheme.Base.Purple.Dark" parent="AppTheme.Purple">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/activity_bg_black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/primary_purple</item>
+    </style>
+
+    <!-- Base application themes. -->
+    <style name="ThemeApp.Green" parent="AppTheme.Base.Green"/>
+    <style name="ThemeApp.Green.Dark" parent="AppTheme.Base.Green.Dark"/>
+    <style name="ThemeApp.Purple" parent="AppTheme.Base.Purple"/>
+    <style name="ThemeApp.Purple.Dark" parent="AppTheme.Base.Purple.Dark"/>
+
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+    <!--   <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+       <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />-->
+
+</resources>
+
+
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <style name="AppTheme.Red" parent="Theme.AppCompat.Light.NoActionBar">
+
+            &lt;!&ndash; Customize your theme here. &ndash;&gt;
+            &lt;!&ndash;   your app branding color for the app bar &ndash;&gt;
+            <item name="colorPrimary">@color/redColorPrimary</item>
+            &lt;!&ndash;   darker variant for the status bar and contextual app bars &ndash;&gt;
+            <item name="colorPrimaryDark">@color/redColorPrimaryDark</item>
+            &lt;!&ndash;   theme UI controls like checkboxes and text fields &ndash;&gt;
+            <item name="colorAccent">@color/redColorAccent</item>
+
+            <item name="android:textColorPrimary">@color/redTextColorPrimary</item>
+            <item name="android:textColor">@color/redTextColorSecondary</item>
+            <item name="android:navigationBarColor">@color/redColorPrimaryDark</item>
+
+        </style>
+        <style name="AppTheme.Blue" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="colorPrimary">@color/blueColorPrimary</item>
+            <item name="colorPrimaryDark">@color/blueColorPrimaryDark</item>
+            <item name="colorAccent">@color/blueColorAccent</item>
+
+            <item name="android:textColorPrimary">@color/blueTextColorPrimary</item>
+            <item name="android:textColor">@color/blueTextColorSecondary</item>
+            <item name="android:navigationBarColor">@color/blueColorPrimaryDark</item>
+        </style>
+    </resources>-->
